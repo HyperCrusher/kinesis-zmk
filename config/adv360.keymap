@@ -42,22 +42,22 @@
         Colmak {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1         &kp N2       &kp N3        &kp N4        &kp N5  &none                                               &none        &kp N6  &kp N7        &kp N8        &kp N9            &kp N0             &kp MINUS
-&kp ESC    &kp Q          &kp W        &kp F         &kp P         &kp B   &none                                               &none        &kp J   &kp L         &kp U         &kp Y             &kp SEMI           &kp BSLH
-&kp TAB    &hml LSHIFT A  &hml LALT R  &hml LCTRL S  &hml LMETA T  &kp G   &bootloader  &none     &none      &none  &none      &bootloader  &kp M   &hmr RMETA N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RSHFT O       &kp SQT
-&none      &kp Z          &kp X        &kp C         &kp D         &kp V                          &none      &none                          &kp K   &kp H         &kp COMMA     &kp DOT           &kp FSLH           &none
-&none      &none          &none        &kp LEFT      &kp RIGHT             &sl 1        &kp BSPC  &none      &none  &kp ENTER  &kp SPACE            &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
+&kp EQUAL       &kp N1  &kp N2  &kp N3    &kp N4     &kp N5  &none                                                              &none        &kp N6  &kp N7  &kp N8     &kp N9            &kp N0             &kp MINUS
+&kp ESC         &kp Q   &kp W   &kp F     &kp P      &kp B   &none                                                              &none        &kp J   &kp L   &kp U      &kp Y             &kp SEMI           &kp BSLH
+&kp TAB         &kp A   &kp R   &kp S     &kp T      &kp G   &bootloader  &none     &none             &none          &none      &bootloader  &kp M   &kp N   &kp E      &kp I             &kp O              &kp SQT
+&kp LEFT_SHIFT  &kp Z   &kp X   &kp C     &kp D      &kp V                          &kp LCTRL         &kp RCTRL                              &kp K   &kp H   &kp COMMA  &kp DOT           &kp FSLH           &kp RSHFT
+&none           &none   &none   &kp LEFT  &kp RIGHT          &sl 1        &kp BSPC  &kp LEFT_GUI      &kp RIGHT_GUI  &kp ENTER  &kp SPACE            &kp UP  &kp DOWN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
             >;
         };
 
         symbol {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1    &kp N2          &kp N3    &kp N4                &kp N5     &none                                               &none        &kp N6     &kp N7    &kp N8     &kp N9            &kp N0             &kp MINUS
-&kp ESC    &kp Q     &kp W           &kp F     &kp P                 &kp B      &none                                               &none        &kp J      &kp L     &kp U      &kp Y             &kp SEMI           &kp BSLH
-&kp TAB    &kp HASH  &kp LEFT_BRACE  &kp LBKT  &kp LEFT_PARENTHESIS  &kp TILDE  &bootloader  &none     &none      &none  &none      &bootloader  &kp GRAVE  &kp RPAR  &kp RBKT   &kp RIGHT_BRACE   &kp UNDER          &kp SQT
-&none      &kp Z     &kp X           &kp C     &kp D                 &kp V                             &none      &none                          &kp K      &kp H     &kp COMMA  &kp DOT           &kp FSLH           &none
-&none      &none     &none           &kp LEFT  &kp RIGHT                        &kp DEL      &kp BSPC  &none      &none  &kp ENTER  &kp SPACE               &kp UP    &kp DOWN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
+&kp EQUAL   &kp N1    &kp N2          &kp N3    &kp N4                &kp N5     &none                                                          &none        &kp N6     &kp N7    &kp N8     &kp N9            &kp N0             &kp MINUS
+&kp ESC     &kp Q     &kp W           &kp F     &kp P                 &kp B      &none                                                          &none        &kp J      &kp L     &kp U      &kp Y             &kp SEMI           &kp BSLH
+&kp TAB     &kp HASH  &kp LEFT_BRACE  &kp LBKT  &kp LEFT_PARENTHESIS  &kp TILDE  &bootloader  &none     &none             &none      &none      &bootloader  &kp GRAVE  &kp RPAR  &kp RBKT   &kp RIGHT_BRACE   &kp UNDER          &kp SQT
+&caps_word  &kp Z     &kp X           &kp C     &kp D                 &kp V                             &kp LCTRL         &kp RCTRL                          &kp K      &kp H     &kp COMMA  &kp DOT           &kp FSLH           &caps_word
+&none       &none     &none           &kp LEFT  &kp RIGHT                        &none        &kp BSPC  &kp LEFT_GUI      &kp RGUI   &kp ENTER  &kp SPACE               &kp UP    &kp DOWN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
             >;
         };
     };
