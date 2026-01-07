@@ -42,22 +42,22 @@
         Qwerty {
             display-name = "Base";
             bindings = <
-&kp EQUAL       &kp N1  &kp N2  &kp N3    &kp N4     &kp N5  &none                                                                  &studio_unlock  &kp N6  &kp N7  &kp N8     &kp N9            &kp N0             &kp MINUS
-&kp ESC         &kp Q   &kp W   &kp E     &kp R      &kp T   &kp PRINTSCREEN                                                        &none           &kp Y   &kp U   &kp I      &kp O             &kp P              &kp BSLH
-&kp TAB         &kp A   &kp S   &kp D     &kp F      &kp G   &bootloader      &none     &kp LEFT_ALT      &kp RIGHT_ALT  &none      &bootloader     &kp H   &kp J   &kp K      &kp L             &kp SEMI           &kp SQT
-&kp LEFT_SHIFT  &kp Z   &kp X   &kp C     &kp V      &kp B                              &kp LCTRL         &kp RCTRL                                 &kp N   &kp M   &kp COMMA  &kp DOT           &kp FSLH           &kp RSHFT
-&none           &none   &none   &kp LEFT  &kp RIGHT          &sl 1            &kp BSPC  &kp LEFT_GUI      &kp RIGHT_GUI  &kp ENTER  &kp SPACE               &kp UP  &kp DOWN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
+&kp EQUAL       &kp N1  &kp N2  &kp N3    &kp N4     &kp N5  &none                                                                  &none      &kp N6  &kp N7  &kp N8     &kp N9            &kp N0             &kp MINUS
+&kp ESC         &kp Q   &kp W   &kp E     &kp R      &kp T   &kp PRINTSCREEN                                                        &none      &kp Y   &kp U   &kp I      &kp O             &kp P              &kp BSLH
+&kp TAB         &kp A   &kp S   &kp D     &kp F      &kp G   &none            &none     &kp LEFT_ALT      &kp RIGHT_ALT  &none      &none      &kp H   &kp J   &kp K      &kp L             &kp SEMI           &kp SQT
+&kp LEFT_SHIFT  &kp Z   &kp X   &kp C     &kp V      &kp B                              &kp LCTRL         &kp RCTRL                            &kp N   &kp M   &kp COMMA  &kp DOT           &kp FSLH           &kp RSHFT
+&none           &none   &none   &kp LEFT  &kp RIGHT          &sl 1            &kp BSPC  &kp LEFT_GUI      &kp RIGHT_GUI  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
             >;
         };
 
         symbol {
             display-name = "Base";
             bindings = <
-&kp EQUAL   &kp N1    &kp N2          &kp N3    &kp N4                &kp N5     &none                                                          &none        &kp N6     &kp N7    &kp N8     &kp N9            &kp N0             &kp MINUS
-&kp ESC     &kp Q     &kp W           &kp F     &kp P                 &kp B      &kp DELETE                                                     &none        &kp J      &kp L     &kp U      &kp Y             &kp SEMI           &kp BSLH
-&kp TAB     &kp HASH  &kp LEFT_BRACE  &kp LBKT  &kp LEFT_PARENTHESIS  &kp TILDE  &bootloader  &none     &none             &none      &none      &bootloader  &kp GRAVE  &kp RPAR  &kp RBKT   &kp RIGHT_BRACE   &kp UNDER          &kp SQT
-&caps_word  &kp Z     &kp X           &kp C     &kp D                 &kp V                             &kp LCTRL         &kp RCTRL                          &kp K      &kp H     &kp COMMA  &kp DOT           &kp FSLH           &caps_word
-&none       &none     &none           &kp LEFT  &kp RIGHT                        &none        &kp BSPC  &kp LEFT_GUI      &kp RGUI   &kp ENTER  &kp SPACE               &kp UP    &kp DOWN   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
+&kp EQUAL   &kp N1    &kp N2            &kp N3          &kp N4                &kp N5     &studio_unlock                                                    &studio_unlock  &kp N6     &kp N7    &kp N8           &kp N9             &kp N0             &kp MINUS
+&kp ESC     &kp Q     &kp W             &kp PLUS        &kp P                 &kp B      &kp DELETE                                                        &none           &kp J      &kp L     &kp KP_EQUAL     &kp Y              &kp SEMI           &kp BSLH
+&kp TAB     &kp HASH  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp TILDE  &bootloader     &none     &none             &none      &none      &bootloader     &kp GRAVE  &kp RPAR  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp UNDER          &kp SQT
+&caps_word  &kp Z     &kp X             &kp KP_MINUS    &kp D                 &kp V                                &kp LCTRL         &kp RCTRL                             &kp K      &kp H     &kp UNDER        &kp DOT            &kp FSLH           &caps_word
+&none       &none     &none             &kp LEFT        &kp RIGHT                        &none           &kp BSPC  &kp LEFT_GUI      &kp RGUI   &kp ENTER  &kp SPACE                  &kp UP    &kp DOWN         &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &none
             >;
         };
     };
